@@ -4,7 +4,6 @@ using UnityEngine.EventSystems;
 public class DraggableAnswer : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler {
     public int answerID;                       
     public AnswerMatchingGame manager;         
-
     private RectTransform rect;
     private Vector2 originalPos;
     private Vector2 dragOffset;
